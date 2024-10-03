@@ -7,7 +7,7 @@
 -------------------------------
 
 local themes_path = require("gears.filesystem").get_configuration_dir()
-local theme_path = themes_path .. "themes/custom/"
+local theme_path = themes_path .. "themes/dracula/"
 local theme_assets = require("beautiful.theme_assets")
 local dpi = require("beautiful.xresources").apply_dpi
 
@@ -41,7 +41,7 @@ theme.border_marked = "#FF5555"
 -- }}}
 
 -- {{{ Titlebars
-theme.titlebar_bg_focus  = "#282A36"
+theme.titlebar_bg_focus  = "#44475A"
 theme.titlebar_bg_normal = "#282A36"
 -- }}}
 
